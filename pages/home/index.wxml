@@ -1,0 +1,11 @@
+<!--pages/home/index.wxml-->
+<!-- 1.数据绑定 -->
+<view>{{name}}</view>
+
+<!-- 2.循环遍历列表 -->
+<view wx:for="{{list}}" wx:key="*this">{{item.name}}</view>
+
+<!-- 3.事件监听改变data -->
+
+<view>当前计数{{count}}</view>
+<button bindtap="increment">+1</button>

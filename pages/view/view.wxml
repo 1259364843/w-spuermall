@@ -1,0 +1,15 @@
+<!--pages/view/view.wxml-->
+<text>view组件</text>
+
+<!-- 1.基本使用: 独占一行 -->
+<view class="box">
+  <text>
+    文本
+  </text>
+</view>
+<view>你好</view>
+
+<!-- 2.hover-class: 按下组件时显示的样式 -->
+<!-- 停留时间: hover-stay-time 默认400ms -->
+
+<view class="box1" hover-class="hover-view" hover-stay-time="0">box1</view>

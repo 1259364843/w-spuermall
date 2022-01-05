@@ -1,0 +1,27 @@
+<!--pages/button/button.wxml-->
+<text>button组件</text>
+
+<!-- 1.基本使用 -->
+
+<button>基本按钮</button>
+
+<!-- 2.属性size: mini, 不独占一行 -->
+<button size="mini">mini</button>
+<button size="mini">mini</button>
+
+<!-- 3.type属性: -->
+
+<button type="primary">按钮</button>
+<button type="warn">按钮</button>
+
+<!-- 4.plain属性: 镂空效果 -->
+
+<button plain>镂空按钮</button>
+
+<!-- 5.disable属性: 不可用 -->
+
+<button disabled>不可用</button>
+
+<!-- 6.loading -->
+
+<button loading>加载中</button>

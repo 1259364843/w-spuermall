@@ -1,0 +1,9 @@
+<!--pages/image/image.wxml-->
+<text>image组件</text>
+
+<!-- 可以写成单标签或双标签 -->
+<!-- 组件有默认宽高 -->
+<!-- 1.基本使用 -->
+
+<image></image>
+

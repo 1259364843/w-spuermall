@@ -1,0 +1,15 @@
+/* pages/view/view.wxss */
+.box {
+  background-color: red;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+/* 按下组件的样式 */
+.hover-view {
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}

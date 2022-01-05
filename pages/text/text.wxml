@@ -1,0 +1,20 @@
+<!--pages/text/text.wxml-->
+<!-- 1.基本使用 -->
+<text>文本组件使用1</text>
+<text>文本组件使用2</text>
+
+<text>\n</text>
+<!-- 2.常见属性 -->
+<!-- 默认不能选中文本 -->
+<text>不能选中的文本</text>
+<text selectable="{{true}}">可以选中的文本</text>
+
+<!-- space决定文本空格大小 -->
+
+<text space="nbsp">hello world</text>
+<text space="emsp">hello world</text>
+<text space="ensp">hello world</text>
+
+<!-- decode属性:解码文本 -->
+
+<text decode>5 &gt; 4</text>
